@@ -1,0 +1,218 @@
+﻿body {
+	margin: 0px;
+}
+ @font-face {
+    font-family: Gotham-Bold; 
+    src: url(fonts/Gotham-Bold.otf); 
+   }
+.he {
+	background-image: url("../img/Layer96.png");
+	width: 100vw;
+	height:55vw;
+	background-size: 100vw 60vw;
+	float: left;
+}
+.top {
+	width: 100vw;
+	height: 7.25vw;
+	border-bottom: 1px solid #797979;
+	clear: left;
+	float: left;
+}
+.logo {
+	height: 4.6875vw;
+	width:  4.9375vw;
+	background-image: url("../img/Logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 13.375vw;
+	margin-top: 1.375vw;
+	float: left;
+}
+.first {
+	margin-left: 13vw;
+	margin-top: 3.5vw;
+/*	width: 3.75vw; */
+	height:3.45vw;
+	float: left;
+	color: #eee;
+	text-align: center;
+	font-size: 0.85vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+.first:hover {
+	border-bottom: #11749e 0.375vw solid;
+}
+.second:hover {
+	border-bottom: #11749e 0.375vw solid;
+}
+.second {
+	margin-left: 2.375vw;
+	margin-top: 3.5vw;
+/*	width: 4.3vw; */
+	height:3.45vw;
+	float: left;
+	color: #eee;
+	font-size: 0.85vw;
+	text-align: center;
+	font-family: 'Montserrat', cursive;
+	font-weight: 900;
+}
+.third {
+	margin-left: 2.375vw;
+	margin-top: 3.5vw;
+/*	width: 4.3vw; */
+	height:3.45vw;
+	float: left;
+	color: #eee;
+	font-size: 0.85vw;
+	text-align: center;
+	font-family: 'Montserrat', cursive;
+	font-weight: 900;
+}
+.third img {
+	float: left;
+	margin-left: 1vw;
+	width: 1.125vw;
+	height:  1.125vw;
+}
+.third img:hover {
+	border-bottom: #11749e 0.375vw solid;
+}
+.slash {
+	float: left;
+	width: 100vw;
+	height: 17vw;
+	clear:both;
+}
+.text1 {
+	height :30.5625vw;
+	width: 100vw;
+	text-align: center;
+	float: left;
+}
+.crea {
+	font-family: 'Gotham-Bold',sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 9vw;
+	font-weight: 700;
+
+}
+.stext {
+	font-family: 'Gotham-Bold',sans-serif; 
+	letter-spacing: 1vw;
+	font-size: 1.4vw;
+	font-weight: 700;
+	color: #275972;
+}
+.agency {
+	width: 100vw;
+	height: 46.25vw;
+	float: left;
+	background-color: #11749e;
+	text-align: center;
+}
+.w{
+	font-size: 11.125vw;
+	color: #5993b2;
+	font-family: 'Gotham-Bold',sans-serif; 
+	font-weight: 700;
+	position: absolute;
+	top:60.25vw;
+	left:44.375vw;
+}
+.we {
+	position: absolute;
+	top: 65.75vw;
+	font-weight: 700;
+	font-size: 2.525vw;
+	font-family: 'Gotham-Bold',sans-serif;
+	color: #eee;
+	left: 30.75vw;
+}
+.slash1 {
+	float: left;
+	width: 100vw;
+	height: 21.5vw
+}
+.fbl {
+	width: 16.875vw;
+	height: 17.25vw;
+	border:1px black solid;
+	float: left;
+	margin-left:13.375vw; 
+	text-align: center;
+}
+.sbl {
+	width: 16.875vw;
+	height: 17.25vw;
+	border:1px black solid;
+	float: left;
+	margin-left:1.875vw; 
+	text-align: center;
+}
+.cen1 {
+	width: 8.3125vw;
+	height: 8.3125vw;
+	border-radius: 100%;
+	margin-right:4.375vw;
+	background-color: #2e85aa;
+	margin-left:4.375vw;
+	background-image: url(../img/copy.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 2.125vw 2.125vw;
+	float: left;
+}
+.cen2 {
+	width: 8.3125vw;
+	height: 8.3125vw;
+	border-radius: 100%;
+	background-color: #2e85aa;
+	margin-left:4.375vw;
+	margin-right:4.375vw;
+	background-image: url(../img/copy.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 2.125vw 2.125vw;
+	float: left;
+}
+.cen3 {
+	width: 8.3125vw;
+	height: 8.3125vw;
+	border-radius: 100%;
+	background-color: #2e85aa;
+	margin-left:4.375vw;
+	margin-right:4.375vw;
+	background-image: url(../img/search.png);
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-size: 2.125vw 2.125vw;
+	float: left;
+}
+.cen4 {
+	width: 8.3125vw;
+	height: 8.3125vw;
+	border-radius: 100%;
+	background-color: #2e85aa;
+	margin-left:4.375vw;
+	margin-right:4.375vw;
+	background-image: url(../img/says.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 2.125vw 2.125vw;
+	float: left;
+}
+.blt {
+	
+	text-align: center;
+}
+/*
+@media all and (max-width: 1582px){
+	.second, .first{
+		font-size: 80%;
+	}
+}
+*/
