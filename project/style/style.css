@@ -140,7 +140,6 @@
 .fbl {
 	width: 16.875vw;
 	height: 17.25vw;
-	border:1px black solid;
 	float: left;
 	margin-left:13.375vw; 
 	text-align: center;
@@ -148,7 +147,6 @@
 .sbl {
 	width: 16.875vw;
 	height: 17.25vw;
-	border:1px black solid;
 	float: left;
 	margin-left:1.875vw; 
 	text-align: center;
@@ -206,9 +204,75 @@
 	float: left;
 }
 .blt {
-	
+	font-weight: 700;
+	font-size: 1vw;
+	font-family: 'Gotham-Bold',sans-serif;
+	color: #eee;
 	text-align: center;
 }
+.blts {
+	font-size: 1vw;
+	font-family: 'Gotham-Bold',sans-serif;
+	color: #eee;
+	line-height: 1;
+}
+.newsroom {
+	float: left;
+	width: 100vw;
+	height: 56vw;
+}
+.news1, .news2, .new1, .new2 {
+	float: left;
+	width: 50vw;
+	height: 28vw;
+}
+.new1 {
+	background-color: #222222;
+}
+.new2 {
+	background-color: #f3f3f3;
+}
+.news1 {
+	background-image: url(../img/news1.png);
+	background-size: 50vw 28vw; 
+}
+.news2 {
+	background-image: url(../img/news2.png);
+	background-size: 50vw 28vw; 
+}
+.ptext {
+	float:left;
+	width: 30vw;
+	height: 16.875vw;
+	margin-top:4.375vw;
+	margin-left: 13.125vw; 
+}
+.date {
+	font-size: 1vw;
+	font-family: 'Gotham-Bold',sans-serif;
+	color: #eee;
+	font-weight: 700;
+}
+.tag {
+	font-size: 2vw;
+	font-family: 'Gotham-Bold',sans-serif;
+	color: #eee;
+	font-weight: 900;
+}
+.date1 {
+	font-size: 1vw;
+	font-family: 'Gotham-Bold',sans-serif;
+	color: #000;
+	font-weight: 700;
+}
+.tag1 {
+	font-size: 2vw;
+	font-family: 'Gotham-Bold',sans-serif;
+	color: #000;
+	font-weight: 900;
+}
+
+
 /*
 @media all and (max-width: 1582px){
 	.second, .first{
