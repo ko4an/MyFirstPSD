@@ -1,0 +1,21 @@
+﻿body {
+	margin: 0px;
+}
+.aye {
+	font-size: 200%;
+	font-weight: 900;
+	float: left;
+	clear: both;
+	background: transparent;
+}
+.aye1 {
+	font-size: 300%;
+	font-weight: 900;
+	float: left;
+	clear: both;
+	cursor: pointer;
+	background-color: #fff;
+}
+.aye1::-moz-selection {
+	background: transparent;
+}

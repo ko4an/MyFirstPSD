@@ -2,18 +2,18 @@
 $(document).ready(function(){
 	var scr=document.documentElement.scrollTop;
 	var c=document.documentElement.clientWidth;
-		if(scr>=0.0078*c && scr<=0.085*c){
+		if(scr>=0.00001*c && scr<=0.2*c){
 			$(".exp").css({"display":"block"})
 			console.log(scr)
 			$(".exp").click(function(){
-				$("html").scrollTop(0.52*c);
+				$("html").animate({"scrollTop":0.52*c},1000);
 			})
 		}
 		else if(scr>=0.494*c && scr<=0.552*c){
 			$(".exp1").css({"display":"block"})
 			console.log(scr)
 			$(".exp1").click(function(){
-				$("html").scrollTop(1.04*c);
+				$("html").animate({"scrollTop":1.04*c},1000);
 			})
 		}
 		else if(scr>=0.963*c && scr<=1.11*c){
@@ -21,22 +21,22 @@ $(document).ready(function(){
 			$(".exp2").css({"border":"0.1875vw solid #11749e"})
 			console.log(scr)
 			$(".exp2").click(function(){
-				$("html").scrollTop(1.614*c);
+				$("html").animate({"scrollTop":1.614*c},1000);
 			})
 		}
-		else if(scr>=1.69*c && scr<=1.74*c){
+		else if(scr>=1.6*c && scr<=1.74*c){
 			$(".exp3").css({"display":"block"})
 			$(".exp3").css({"border":"0.1875vw solid #11749e"})
 			console.log(scr)
 			$(".exp3").click(function(){
-				$("html").scrollTop(2.44*c);
+				$("html").animate({"scrollTop":2.44*c},1000);
 			})
 		}
 		else if(scr>=2.29*c && scr<=2.53*c){
 			$(".exp4").css({"display":"block"})
 			console.log(scr)
 			$(".exp4").click(function(){
-				$("html").scrollTop(3.02*c);
+				$("html").animate({"scrollTop":3.02*c},1000);
 			})
 		}
 		else if(scr>=2.95*c && scr<=3.08*c){
@@ -44,14 +44,14 @@ $(document).ready(function(){
 			$(".exp5").css({"border":"0.1875vw solid #11749e"})
 			console.log(scr)
 			$(".exp5").click(function(){
-				$("html").scrollTop(3.67*c);
+				$("html").animate({"scrollTop":3.67*c},1000);
 			})
 		}
-		else if(scr>=3.6*c && scr<=4*c){
+		else if(scr>=3.2*c && scr<=4*c){
 			$(".exp6").css({"display":"block"})
 			console.log(scr)
 			$(".exp6").click(function(){
-				$("html").scrollTop(0*c);
+				$("html").animate({"scrollTop":0.1*c},1000);
 			})
 		}
 		else{
@@ -61,11 +61,4 @@ $(document).ready(function(){
 		var d=c*0.52;
 		console.log(d);
 });
-},50);
-/*
-			
-		}
-		else{
-			$(".exp").css({"background-color":"orange"})
-		}
-		*/
+},1500);
