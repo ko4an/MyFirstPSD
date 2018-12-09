@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
     <head>
       <meta charset="UTF-8">
@@ -191,18 +191,55 @@
         <span class="lo">WE`D LOVE TO HEAR ABOUT YOUR PROJECT.</span>
         <div class="slash7"></div>
         <div class="lbody">
-          <div class="inpfir"><input type="text" placeholder="Name"></div>
-          <div class="inpsec"><input type="text" placeholder="Email"></div>
+          <form <form action="index.php" method="post">
+          <div class="inpfir"><input type="text" placeholder="Name" name="name"></div>
+          <div class="inpsec"><input type="text" placeholder="Email" name="email"></div>
           <div class="inpsec"><input type="text" placeholder="Phone"></div>
-          <div class="inpbody"><textarea cols="20" wrap="hard" placeholder="message"></textarea></div>
+          <div class="inpbody"><textarea cols="20" wrap="hard" placeholder="Message" name="message"></textarea></div>
           <div class="sbm"><input type="submit" value="SUBMIT"></div>
+          </form>
         </div>
         <div class="exp6"></div>
       </div>
       <div class="map"></div>
       <footer>
+      	
         <div class="right">© 2016 PSDfreebies.com - All Right Reserved</div>
         <div class="design"></div>
       </footer>
+	<div class="feedback">
+		<div class="exit"></div>
+	<?php
+	if(isset($_POST['name'])) $name = $_POST['name'];
+    if(isset($_POST['email'])) $email = $_POST['email'];
+	if(isset($_POST['message'])) $message = $_POST['message'];
+   
+    $host = '127.0.0.1';
+    $db   = 'log';
+    $user = 'root';
+    $pass = '';
+    $charset = 'utf8';
+
+    $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+    $opt = [
+        PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+        PDO::ATTR_EMULATE_PREPARES   => false,
+    ];
+    $pdo = new PDO($dsn, $user, $pass, $opt);
+	    $stmt = $pdo->query('SELECT * FROM feedback');
+		while ($row = $stmt->fetch())
+		{
+    	echo "<div class='bcomm'>
+    			<div class='ncomm'>" . $row['name'] . "<br>" . $row['email'] . "</div>
+    			<div class='comm'>" . $row['message'] . "</div>
+			</div>";
+		}
+	$sql = "INSERT INTO feedback (name,email,message) VALUES (:name,:email,:message)";  
+	$q = $pdo->prepare($sql);
+	$q->execute(array(':name'=>$name,':email'=>$email,':message'=>$message,));
+	?>
+	</div>
+	<div class="btncomm">feedback</div>
     </body>
   </html>

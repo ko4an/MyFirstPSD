@@ -799,7 +799,7 @@
 	height: 4vw;
 	width: 14.25vw; 
 	float:left;
-	margin-left: 32.25vw;
+	margin-left: 30.75vw;
 }
 .sbm input[type=submit] {
 	background-color: #11749e;
@@ -844,4 +844,74 @@ footer {
 	background-repeat: no-repeat;
 	margin-left: 42.75vw;
 	margin-top: 2.75vw;
+}
+.row {
+	position: fixed;
+	background-color: #11749e;
+	color:white;
+	left:15px;
+	top:0px;
+	border-radius: 10px;
+}
+.btncomm {
+	position: absolute;
+	top: 433.625vw;
+	border-radius: 0.6vw; 
+	left:48vw;
+	height: 1vw;
+	padding: 0.5vw;
+	font-size: 0.8vw;
+	text-align: center;
+	color: #eee;
+	width:  4vw;
+	border: #222 2px solid;
+	background-color: #282828;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+.feedback {
+	overflow: auto;
+	position: fixed;
+	width: 60vw;
+	left:20vw;
+	top:5vw;
+	background-color: #eee;
+	height: 30vw;
+	border: #222 2px solid;
+	display: none;
+}
+.bcomm{
+	width: 58vw;
+	height: 5.5vw;
+	float: left;
+	margin-top: 0.5vw;
+	margin-left: 1vw;
+	background-color: #11749e;
+	border-radius: 2vw 0vw 0vw 2vw;
+}
+.ncomm {
+	height: 4.5vw;
+	width: 6vw;
+	background-color: #5cabcc;
+	padding-left: 0.5vw;
+	border-radius: 1vw;
+	margin-top: 0.5vw;
+	margin-left: -0.8vw;
+	float: left;
+}
+.comm {
+	height: 4.5vw;
+	width: 46vw;
+	background-color: #eee;
+	padding-left: 0.5vw;
+	border-radius: 1vw;
+	margin-top: 0.5vw;
+	margin-left: 4vw;
+	float: left;
+}
+.exit {
+	float:right;
+	width: 0.4vw;
+	height: 0.4vw;
+	background-color: #11749e;
 }
