@@ -7,7 +7,7 @@
     src: url(fonts/Gotham-Bold.otf); 
    }
 .exp {
-	position: relative;
+	position: fixed;
 	border: 0.1875vw solid white;
 	border-radius: 100vw;
 	bottom:1vw;
@@ -21,103 +21,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 1.125vw 0.8125vw;  
-}
-.exp1 {
-	position: relative;
-	border: 0.1875vw solid white;
-	border-radius: 100vw;
-	bottom:1vw;
-	width: 3.9375vw;
-	height: 3.9375vw;
-	z-index: 100;
-	display: none;
-	margin-left: 48vw;
-	margin-top: 42vw;
-	background-image: url(../img/st.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.125vw 0.8125vw; 
-}
-.exp2 {
-	position: relative;
-	border: 0.1875vw solid white;
-	border-radius: 100vw;
-	bottom:1vw;
-	width: 3.9375vw;
-	height: 3.9375vw;
-	z-index: 100;
-	display: none;
-	margin-left: 48vw;
-	margin-top: 52vw;
-	background-image: url(../img/st.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.125vw 0.8125vw; 
-}
-.exp3 {
-	position: relative;
-	border: 0.1875vw solid white;
-	border-radius: 100vw;
-	bottom:1vw;
-	width: 3.9375vw;
-	height: 3.9375vw;
-	z-index: 100;
-	display: none;
-	margin-left: 48vw;
-	margin-top: 59vw;
-	background-image: url(../img/st.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.125vw 0.8125vw; 
-}
-.exp4{
-	position: relative;
-	border: 0.1875vw solid white;
-	border-radius: 100vw;
-	bottom:1vw;
-	width: 3.9375vw;
-	height: 3.9375vw;
-	z-index: 100;
-	display: none;
-	margin-left: 48vw;
-	margin-top: 71vw;
-	background-image: url(../img/st.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.125vw 0.8125vw;  
-}
-.exp5 {
-	position: relative;
-	border: 0.1875vw solid white;
-	border-radius: 100vw;
-	bottom:1vw;
-	width: 3.9375vw;
-	height: 3.9375vw;
-	z-index: 100;
-	display: none;
-	margin-left: 48vw;
-	margin-top: 55vw;
-	background-image: url(../img/st.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.125vw 0.8125vw;  
-}
-.exp6 {
-	position: relative;
-	border: 0.1875vw solid white;
-	border-radius: 100vw;
-	bottom:1vw;
-	width: 3.9375vw;
-	height: 3.9375vw;
-	z-index: 100;
-	display: none;
-	margin-left: 48vw;
-	margin-top: 49vw;
-	background-image: url(../img/st.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1.125vw 0.8125vw;
-	transform: rotate(180deg);
 }
 .he {
 	background-image: url("../img/Layer96.png");

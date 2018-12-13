@@ -34,7 +34,6 @@
           <br>
           <span class="stext">POWERED BY PSDFREEBIES.COM</span>
         </div>
-        <div class="exp"></div>
       </div>
       <div class="agency">
         <span class="w">W</span>
@@ -207,6 +206,7 @@
         <div class="right">© 2016 PSDfreebies.com - All Right Reserved</div>
         <div class="design"></div>
       </footer>
+  <div class="exp"></div>
 	<div class="feedback">
 		<div class="exit"></div>
 	<?php
@@ -241,5 +241,6 @@
 	?>
 	</div>
 	<div class="btncomm">feedback</div>
-    </body>
-  </html>
+
+  </body>
+</html>
